@@ -4,6 +4,6 @@ public with sharing class HamburguesaVegetariana extends AbstractHamburguesa{
     }
 
     public override void hacerCombo(){ 
-        System.debug('Incluye Papas y Jugo'); 
+        System.debug('Incluye Papas y Agua'); 
     } 
 }
