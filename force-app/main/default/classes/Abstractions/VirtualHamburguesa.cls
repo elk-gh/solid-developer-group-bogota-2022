@@ -14,6 +14,6 @@ public virtual class VirtualHamburguesa implements InterfaceHamburguesa {
         System.debug('Incluye Papas y Gaseosa'); 
     } 
     public virtual void incluirSalsas(){ 
-        System.debug('Inclye salsas'); 
+        System.debug('Incluye salsas'); 
     } 
 } 

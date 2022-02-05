@@ -13,6 +13,6 @@ public abstract class AbstractHamburguesa implements InterfaceHamburguesa{
     public abstract void hacerCombo();
     
     public void incluirSalsas(){ 
-        System.debug('Inclye salsas'); 
+        System.debug('Incluye salsas'); 
     } 
 } 
