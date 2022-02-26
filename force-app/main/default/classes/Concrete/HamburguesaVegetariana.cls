@@ -1,13 +1,13 @@
 public with sharing class HamburguesaVegetariana extends AbstractHamburguesa{
     public HamburguesaVegetariana() {
-        super('Ajonjoli','Vegetal',true, 5);
+        super('Ajonjoli','Vegetal',true);
     }
 
     public override void hacerCombo(){ 
-        System.debug('Incluye Papas y Agua'); 
+        System.debug('**Incluye Papas y Agua**'); 
     }
-    
-    public override Decimal precio(){
-        return 6;
+
+    public override void calcularPrecio(){
+        System.debug('**El precio hamburguesa veggie es =>'+5);
     }
 }

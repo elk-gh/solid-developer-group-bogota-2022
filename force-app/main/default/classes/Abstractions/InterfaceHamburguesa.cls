@@ -2,5 +2,5 @@ public interface InterfaceHamburguesa {
 
     void hacerCombo();
 
-    void incluirSalsas();
-} 
+    void calcularPrecio();
+}
