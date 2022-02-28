@@ -1,3 +1,3 @@
-ServicioHamburguesa service = new ServicioHamburguesa();
-service.crearOrdenClasica(5);
-service.crearOrdenVegetariana(5);
+//SOLID
+solid_ServicioHamburguesa serviceSOLID = new solid_ServicioHamburguesa();
+serviceSOLID.crearOrden('Pescado', 1);

@@ -1,4 +1,4 @@
-public abstract class AbstractHamburguesa implements InterfaceHamburguesa{ 
+public abstract class AbstractHamburguesa implements InterfaceHamburguesa, InterfaceSalsas{ 
 
     private String tipoDePan { get; set; } 
     private String tipoDeCarne { get; set; } 
@@ -11,8 +11,10 @@ public abstract class AbstractHamburguesa implements InterfaceHamburguesa{
     }
 
     public abstract void hacerCombo();
-    
+
+    public abstract void calcularPrecio();
+
     public void incluirSalsas(){ 
-        System.debug('Incluye salsas'); 
+        System.debug('**Incluye salsas**'); 
     } 
-} 
+}
